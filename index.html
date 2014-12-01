@@ -249,7 +249,7 @@
   // recolecta los valores que inserto el usuario
   var datosUsuario = $("#nombredeusuario").val()
   var datosPassword = $("#clave").val()
-  archivoValidacion = "http://localhost/sitioTATTOObootstrap/apptattoo/validacion_de_datos.php?jsoncallback=?"
+  archivoValidacion = "http://lighthousetattoo.info/appempleados1/services/validacion_de_datos.php?jsoncallback=?"
    
   $.getJSON( archivoValidacion, { usuario:datosUsuario, password:datosPassword})
   .done(function(respuestaServer) {
